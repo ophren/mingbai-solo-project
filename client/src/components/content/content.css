@@ -1,0 +1,6 @@
+#content {
+    display: grid;
+    grid-template-columns: 18% 84%;
+    height: calc(100vh - 90px);
+    overflow: hidden; 
+}

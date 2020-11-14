@@ -1,0 +1,25 @@
+#side {
+    border-top: 1px solid rgb(231, 231, 231);
+    padding-left: 4%;
+    padding-right: 5px;
+    color: rgb(46, 46, 46);
+    background-color: rgb(255, 255, 255);
+}
+
+.side-category {
+    /* background-color: rgb(91, 128, 148); */
+    border-bottom: 2px solid rgb(231, 231, 231);
+    display: flex;
+    margin-top: 6%;
+    margin-left: 4%;
+    color: rgb(0, 0, 0);
+    padding: 8px;
+    border-radius: 2px;
+    margin-right: 5%;
+}
+
+.logo-img {
+    height: 18px;
+    width: 24px;
+    margin-right: 10px;
+}

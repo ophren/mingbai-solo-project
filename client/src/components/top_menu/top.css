@@ -1,0 +1,21 @@
+#top {
+    display: flex;
+    background-color: rgb(230, 230, 255);
+    justify-content: space-between;
+}
+
+#mingbai_logo {
+    height: 40px;
+    width: 120px;
+}
+
+#add-btn {
+    height: 30px;
+    width: auto;
+    color: white;
+    background-color: rgb(19, 160, 19);
+    margin: 10px;
+    border:none;
+    border-radius: 2px;
+    font-weight: bold;
+}

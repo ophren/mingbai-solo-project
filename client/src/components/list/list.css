@@ -1,0 +1,18 @@
+#page {
+    background-color: rgb(182, 182, 182);
+    border: 1px dotted black;
+}
+
+#concept-box {
+    background-color: lightblue;
+    margin-top: 40px;
+    border-radius: 2px;
+    
+}
+
+#concept-name {
+    font-weight: bolder;
+    text-decoration: underline;
+    padding-top: 1%;
+    margin-bottom: 1%;
+}
