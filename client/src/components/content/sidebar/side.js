@@ -31,7 +31,7 @@ function Side () {
                     <div id="chemistry">Chemistry</div>
                 </div>
 
-                <Link to="/cs">
+                <Link to="/cs" style={{ textDecoration: 'none' }}>
                 <div className="side-category">
                     <img src="computer.svg" className= "logo-img" alt="Computer Science logo"></img>
                     <div id="computer-science">Computer Science</div>
@@ -61,7 +61,7 @@ function Side () {
 
                 <div className="side-category">
                     <img src="computer.svg" className= "logo-img" alt="Computer Science logo"></img>
-                    <div id="computer-science">Computer Science (DEAD)</div>
+                    <div id="computer-science">Hacking</div>
                 </div>
 
                 <div className="side-category">

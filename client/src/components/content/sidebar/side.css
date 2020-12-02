@@ -1,9 +1,21 @@
+.sidescroll {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
 #side {
     border-top: 1px solid rgb(231, 231, 231);
     padding-left: 4%;
     padding-right: 5px;
     color: rgb(46, 46, 46);
     background-color: rgb(255, 255, 255);
+}
+
+#category-title {
+    font-weight: bolder;
+    margin-top: 5%;
+    margin-bottom: 4%;
+    padding: 8px;
 }
 
 .side-category {
@@ -16,6 +28,11 @@
     padding: 8px;
     border-radius: 2px;
     margin-right: 5%;
+    text-decoration: none;
+}
+
+.side-category:hover {
+  font-weight: bolder;
 }
 
 .logo-img {
@@ -23,3 +40,24 @@
     width: 24px;
     margin-right: 10px;
 }
+
+/* width */
+::-webkit-scrollbar {
+    width: 4px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: #e9e9e9;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(192, 192, 192);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(104, 104, 104);
+  }

@@ -20,20 +20,23 @@
   transform: translate(-50%,-50%);
 }
 
-#category {
-    margin-top: 5%;
-    width: 50%;
-}
 
 #concept_title {
     width: 50%;
     margin-top: 2%;
 }
 
+#categories {
+    background-color: rgb(212, 212, 212);
+    color: grey;
+    width: 50%;
+    margin-top: 2%;
+}
 #concept_description {
     margin-top: 2%;
     height: 400px;
     width: 50%;
+
 }
 
 #submit-btn {

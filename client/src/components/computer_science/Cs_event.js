@@ -1,13 +1,28 @@
 import './Cs_event.css';
 import List from '../list/list.js'
+import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
+
+
 
 function Cs_event ({descriptions, cs}) {
-
+    
     return (
         <div>
-            <div id="welcome_phrase">Here is the list of CS descriptions, sorted by relevance!</div>
-            <div id="welcome_phrase_2">Feel free to upvote them!</div>
-            <List descriptions = {descriptions} keyword = {cs}></List>
+            <div id="top">
+                <Link to = "/"><img src="mingbai.png" id="mingbai_logo"></img></Link>
+                <button id="add-btn">Create new Definition</button>
+            </div>
+
+            <div id="page">
+                {/* <img src="computer.svg" id="cs-logo"></img> */}
+                <div id="welcome_phrase">Computer Science</div>
+                
+                <div id="cs-quote">“The computer was born to solve problems that did not exist before.”
+                — Bill Gates</div>
+                {/* <hr id="hr"></hr> */}
+                {/* <div id="browse-subject">Browse subjects</div> */}
+                <List descriptions = {descriptions} keyword = {cs}></List>
+            </div>
         </div>
     );
 }

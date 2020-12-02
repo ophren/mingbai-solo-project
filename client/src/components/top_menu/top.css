@@ -1,6 +1,5 @@
 #top {
     display: flex;
-    background-color: rgb(230, 230, 255);
     justify-content: space-between;
 }
 
@@ -18,4 +17,12 @@
     border:none;
     border-radius: 2px;
     font-weight: bold;
+}
+
+#quote {
+    font-size: 12px;
+    padding-top: 1%;
+    color: rgb(129, 129, 129);
+    font-style: italic;
+    margin-left: 40px;
 }

@@ -5,7 +5,8 @@ const explSchema = new Schema (
   {
     conceptCategory: {type: String},
     conceptName :  {type: String},
-    conceptDescription : {type: String}
+    conceptDescription : {type: String},
+    votes : {type: Number}
   }
 
 );

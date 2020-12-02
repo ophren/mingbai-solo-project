@@ -1,18 +1,106 @@
-#page {
-    background-color: rgb(182, 182, 182);
-    border: 1px dotted black;
-}
 
 #concept-box {
-    background-color: lightblue;
+    background-color: rgb(236, 236, 236);
     margin-top: 40px;
-    border-radius: 2px;
-    
+    border-radius: 2px;  
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 #concept-name {
+    color: rgb(53, 53, 53);
     font-weight: bolder;
-    text-decoration: underline;
-    padding-top: 1%;
+    padding-top: 2%;
     margin-bottom: 1%;
+}
+
+#cn-big-title {
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+#concept-name-in-list {
+    color: rgb(31, 31, 31);
+    font-weight: bolder;
+    padding-top: 2%;
+    margin-bottom: 1%;
+}
+
+#all-boxes {
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+#concept-name-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(219, 219, 219);
+    height: 120px;
+    width: 100px;
+    border: 2px solid rgb(255, 255, 255);    
+    text-decoration: none;
+}
+
+#concept-description{
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: left;
+    padding-top: 3%;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(165, 165, 165);
+    margin-left: 20px;
+    margin-right: 20px;
+    min-height: 200px;
+}
+
+
+#concept-name-box:hover {
+    background-color: rgb(161, 161, 161);
+    font-size: 18px;
+}
+
+#upvote-btn-zone {
+    margin-bottom: 1%;
+}
+#upvote-btn {
+    background-color: rgb(136, 136, 136);
+    color: white;
+    font-weight: bolder;
+    width: 30px;
+    height: 30px;
+    border-radius: 3px;
+    padding: 1%;
+    margin-right: 1%;
+    margin-top: 3%;
+    border: none;
+}
+
+#downvote-btn {
+    background-color: rgb(138, 138, 138);
+    font-weight: bolder;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 3px;
+    padding: 1%;
+    border: none;
+    margin-top: 3%;
+}
+
+#not-found-img {
+    margin-top: 30%;
+    margin-bottom: 3%;
+    height: 50px;
+    width: 50px;
+}
+
+#term-not-found {
+    color: rgb(146, 146, 146);
+}
+
+#votes {
+  padding-bottom: 15px;
+  font-size: 12px;
+  color: grey;
 }

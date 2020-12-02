@@ -1,3 +1,5 @@
+
+
 const Explanation = require ('./model');
 
 exports.search = async (req, res) => {
@@ -12,3 +14,23 @@ exports.postNew = async (req,res) => {
     res.send (newExpl);
 }
 
+exports.updateVote = async (req,res) => {
+    // console.log(req.body);
+    // const update = await Explanation(req.body).updateOne(); // NEW?
+    // res.send (update);
+    try {
+        const {id, dir} = req.params;
+        await Explanation.findByIdAndUpdate(
+            { _id: id },
+            {
+                $inc: {votes: dir === 'up'? 1 : -1}
+            }
+        )
+        res.sendStatus(204);
+    }
+
+    catch (error) {
+        console.log(error);
+        res.sendStatus(500);
+    }
+}

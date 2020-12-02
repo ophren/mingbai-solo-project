@@ -1,5 +1,5 @@
 import './top.css';
-import {useState} from 'react';
+import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
 
 function Top ({ setShowModal }) {
 
@@ -12,7 +12,7 @@ function Top ({ setShowModal }) {
     return (
 
     <div id="top">
-        <img src="mingbai.png" id="mingbai_logo"></img>
+        <Link to = "/"><img src="mingbai.png" id="mingbai_logo"></img></Link>
         <div id="quote">“What I cannot create, I do not understand.”
             ― Richard P. Feynman</div>
         <button onClick = {setModalToTrue} id="add-btn">Create new Definition</button>
