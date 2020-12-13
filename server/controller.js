@@ -1,5 +1,3 @@
-
-
 const Explanation = require ('./model');
 
 exports.search = async (req, res) => {
@@ -8,16 +6,12 @@ exports.search = async (req, res) => {
     res.send (allExplanations);
 }
 
-
 exports.postNew = async (req,res) => {
     const newExpl = await new Explanation(req.body).save();
     res.send (newExpl);
 }
 
 exports.updateVote = async (req,res) => {
-    // console.log(req.body);
-    // const update = await Explanation(req.body).updateOne(); // NEW?
-    // res.send (update);
     try {
         const {id, dir} = req.params;
         await Explanation.findByIdAndUpdate(

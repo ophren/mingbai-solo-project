@@ -1,11 +1,8 @@
-
-
 const router = require ('express').Router();
 const controller = require ('./controller');
 
-// Access to DB from model
 router.get ('/query', controller.search);
-router.post ('/new', controller.postNew); // Allow user to add category
+router.post ('/new', controller.postNew); 
 router.put('/update/:id/:dir', controller.updateVote);
 
 module.exports = router;

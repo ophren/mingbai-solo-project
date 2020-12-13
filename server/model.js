@@ -8,7 +8,6 @@ const explSchema = new Schema (
     conceptDescription : {type: String},
     votes : {type: Number}
   }
-
 );
 
 module.exports = mongoose.model ('Explanations', explSchema);
