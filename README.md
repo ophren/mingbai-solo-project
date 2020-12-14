@@ -14,7 +14,7 @@ I created this website using <b>React</b>, <b>Express</b> and <b>MongoDB</b>.
 
 ## Getting Started
 
-Clone repo: git clone https://github.com/ophren/mingbai-solo-project.git
-Install all required dependencies: npm install
-Run server: node server/index.js
-Run app: cd client && npm start
+- Clone repo: git clone https://github.com/ophren/mingbai-solo-project.git
+- Install all required dependencies: npm install
+- Run server: node server/index.js
+- Run app: cd client && npm start
