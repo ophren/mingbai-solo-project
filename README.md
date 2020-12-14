@@ -1,5 +1,7 @@
 # Mingbai
 
+The first open-source database for easy-to-understand definitions
+
 ## About Mingbai
 
 I developed Mingbai from the ground up to help students find easy-to-understand term definitions related to their field of study (Biology, Chemistry, Computer Science, etc.)
